@@ -1,16 +1,30 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import { Link } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
+
+import "./Header.css";
 
 class Header extends Component {
   render() {
+    const links = [
+      <NavLink activeClassName="is-active" exact to="/">Home</NavLink>,
+      <NavLink activeClassName="is-active" to="/characters">Characters</NavLink>,
+      <NavLink activeClassName="is-active" to="/episodes">Episodes</NavLink>,
+      <NavLink activeClassName="is-active" to="/locations">Locations</NavLink>
+    ];
+
     return (
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/characters">Characters</Link>
-        <Link to="/episodes">Episodes</Link>
-        <Link to="/locations">Locations</Link>
-      </div> 
+      <header className="header">
+        <nav>
+          <ul className="nav-list">
+            {links.map((link, i) => (
+              <li className="nav-list-item" key={i}>
+                {link}
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </header>
     );
   }
 }
