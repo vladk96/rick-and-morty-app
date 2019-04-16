@@ -8,7 +8,7 @@
   box-shadow: 1px -3px 3px 3px rgba(0,0,0,.54);
 }
 
-/* this margin need it in order to 
+/* this padding needs in order to 
  * below content does not crawl over 
  * to the fixed header block */
 .header + div {
@@ -28,14 +28,15 @@
   color: #f9aa33;
 }
 
-.nav-list-item a.is-active {
-  color: #f9aa33;
-  border-color: #f9aa33;
-}
-
 .nav-list-item a {
+  font-size: 1.1rem;
   color: #fff;
   border-bottom: 2px solid transparent;
   text-decoration: none;
   transition: color .2s ease-in-out;
+}
+
+.nav-list-item a.is-active {
+  color: #f9aa33;
+  border-color: #f9aa33;
 }
