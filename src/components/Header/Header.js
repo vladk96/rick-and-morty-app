@@ -9,8 +9,6 @@ class Header extends Component {
     const links = [
       <NavLink activeClassName="is-active" exact to="/">Home</NavLink>,
       <NavLink activeClassName="is-active" to="/characters">Characters</NavLink>,
-      <NavLink activeClassName="is-active" to="/episodes">Episodes</NavLink>,
-      <NavLink activeClassName="is-active" to="/locations">Locations</NavLink>
     ];
 
     return (

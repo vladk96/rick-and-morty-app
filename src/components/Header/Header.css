@@ -8,9 +8,6 @@
   box-shadow: 1px -3px 3px 3px rgba(0,0,0,.54);
 }
 
-/* this padding needs in order to 
- * below content does not crawl over 
- * to the fixed header block */
 .header + div {
   padding-top: 83px;
 }

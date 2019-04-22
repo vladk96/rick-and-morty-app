@@ -18,12 +18,10 @@
   margin: 10px 0 0 15px;
   font-size: 1.3rem;
 }
+
 .card-species,
 .card-gender {
   margin: 0 0 0 15px;
   color: rgb(150, 144, 144);
   font-weight: 300;
-}
-.card-gender {
-
 }
