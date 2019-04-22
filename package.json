@@ -2,11 +2,15 @@
   "name": "first-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://vladk96.github.io/rick-and-morty-app",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "start": "react-scripts start",
