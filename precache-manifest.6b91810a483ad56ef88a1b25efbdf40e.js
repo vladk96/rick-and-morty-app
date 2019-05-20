@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/rick-and-morty-app/static/js/runtime~main.f58b98ef.js"
   },
   {
-    "revision": "a66791b55d6273ceb83b",
-    "url": "/rick-and-morty-app/static/js/main.089c5be1.chunk.js"
+    "revision": "d4ae63f2ccf0c0de525c",
+    "url": "/rick-and-morty-app/static/js/main.5c92fdac.chunk.js"
   },
   {
     "revision": "7c6de451133061f75403",
     "url": "/rick-and-morty-app/static/js/2.57860b14.chunk.js"
   },
   {
-    "revision": "a66791b55d6273ceb83b",
-    "url": "/rick-and-morty-app/static/css/main.1f88641f.chunk.css"
+    "revision": "d4ae63f2ccf0c0de525c",
+    "url": "/rick-and-morty-app/static/css/main.600dc073.chunk.css"
   },
   {
-    "revision": "01322c3ebcfd3f50f360ef8b3707abca",
+    "revision": "423a7587c8f493698ff8f76190978f6b",
     "url": "/rick-and-morty-app/index.html"
   }
 ];
